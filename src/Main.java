@@ -3,7 +3,7 @@ public class Main {
         Vocabulary vocabulary = new Vocabulary();
 
         vocabulary.addWords("Hello World all");
-        vocabulary.addWords("the Best");
+        vocabulary.addWords("the Best best Best");
 
         System.out.println(vocabulary.getVocabulary());
     }

@@ -10,6 +10,8 @@ public class Vocabulary {
 
     public List<String> getVocabulary() {
         return vocabulary.stream()
+                .map(String::toLowerCase)
+                .distinct()
                 .sorted(Comparator.naturalOrder())
                 .collect(Collectors.toList());
     }
